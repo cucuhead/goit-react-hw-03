@@ -1,0 +1,25 @@
+.listItem {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-around;
+  border: solid 1px #ccc;
+}
+.listDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0px;
+}
+p {
+  margin: 0px 0px;
+  color: rgb(44, 44, 44);
+  font-weight: 700;
+  font-size: large;
+}
